@@ -11,6 +11,9 @@ module lens(radius){
 				cube([100,100,100],center=true);
 			}
 		}
+		translate([5,0,0.5]){
+			cube([10,5,1],center=true);
+		}
 	}
 }
 
