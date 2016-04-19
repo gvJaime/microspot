@@ -53,6 +53,12 @@ You can contribute to this repo by forking it, and making pull requests to the [
 
 Due to FCStd files being unmergeable, Assembly.FCStd is modified only on the Development branch. It may not be included in pull requests.
 
+##Credits
+
+* [MalariaSpot][MalariaLink] (Main concept, inspiration, research teammates, current sponsor)
+* [@AngelLM](https://github.com/AngelLM) (Design and research collaborator back in Mundo Reader. Wonderful teammate)
+* Mundo Reader S.L (sponsor from October 2015 to April 2016)
+
 ##License
 
 Licensed under Creative Commons 4.0 Attribution Share-Alike
