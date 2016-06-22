@@ -1,0 +1,2 @@
+NA (BluRay) = 0.85
+NA = n*sin(phi) siendo phi el ángulo del cono de rayos que la lente es capaz de convertir en rayos paralelos.
