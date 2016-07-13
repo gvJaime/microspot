@@ -8,12 +8,13 @@
 The purpose of this work is the development of a 3D printable, low cost, phone controlled, portable automated microscope that can be used to diagnose global health diseases anywhere in the world.
 
 ##The project
+
 The device consists of a core-H mechanical stage, plus a vertical axis with a phone attached. The phone camera sees through an optical system that allows it to take pictures at microscopic scale.
 
 This project aims to bring medical diagnosis equipment to the open source community: Designs are made with 3D printing in mind, materials are inexpensive, and electronics accesible. The source is open from the very development stage, and the tools used to design it are open source.
 
 
-This project started as a collaboration between the Innovation and Robotics department of bq and [MalariaSpot][MalariaLink], a innitiative of the Technical University of Madrid.
+This project started as a collaboration between the Innovation and Robotics department of bq and [MalariaSpot][MalariaLink], an innitiative of the Technical University of Madrid.
 
 Now it's being developed within [MalariaSpot][MalariaLink], but you can also contribute to it's development!
 
