@@ -25,7 +25,7 @@ To build this device, you need to 3D print the .stl files provided in the releas
 The best way to understand how the device is made is to explore the Assembly file. Although, bill of materials and assembly instructions are provided in the wiki.
 
 ##About this repository
-This repository holds the mechanical information of the device, plus 3d printed optics research files, and wiki.
+This repository holds the mechanical information of the device, and wiki. Android app information and firmware information are held in other repos.
 
 * `Mechanical`: [FreeCAD][FreeCADlink] files for the mechanical design
 	* `src`: Source files in .FCStd format.
@@ -39,6 +39,22 @@ This repository holds the mechanical information of the device, plus 3d printed 
 You can contribute to this repo by forking it, and making pull requests to the [Development branch][Develop]. If you find problems to make the contribution this way, [place an issue][issue] and we'll work it out.
 
 Due to FCStd files being unmergeable, Assembly.FCStd is modified only on the Development branch. It may not be included in pull requests.
+
+##History
+
+###Microspot v0.1
+
+<img src="./doc/README/Microspot.png" width="300" align="center">
+
+####Specs
+
++ Compact design, (256x256x130mm) for easy transport.
++ Aluminum profile + 3D printed parts based frame.
++ 2 axis core-H cartesian mechanical stage controlled by an Arduino, running [GRBL based firmware][microspot-fw].
++ 50x15mm scan area.
++ Integrated LED illumination system, with regulable intensity by firmware.
++ Phone support with adaptable grip, to fit all phone sizes.
+
 
 ##Credits
 
@@ -55,5 +71,6 @@ Licensed under Creative Commons 4.0 Attribution Share-Alike
 
 [FreeCADlink]: http://www.freecadweb.org/
 [MalariaLink]: http://malariaspot.org/
-[issue]: https://github.com/elgambitero/microspot/issues/new
-[Develop]: https://github.com/elgambitero/microspot/tree/Development
+[issue]: https://github.com/malariaspot/microspot/issues/new
+[Develop]: https://github.com/malariaspot/microspot/tree/Development
+[microspot-fw]: https://github.com/malariaspot/microspot-fw
