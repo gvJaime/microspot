@@ -18,37 +18,23 @@ This project started as a collaboration between the Innovation and Robotics depa
 
 Now it's being developed within [MalariaSpot][MalariaLink], but you can also contribute to it's development!
 
+##Building the device
+
+To build this device, you need to 3D print the .stl files provided in the release section, and get all the items listed in the bill of materials.
+
+The best way to understand how the device is made is to explore the Assembly file. Although, bill of materials and assembly instructions are provided in the wiki.
+
 ##About this repository
 This repository holds the mechanical information of the device, plus 3d printed optics research files, and wiki.
 
 * `Mechanical`: [FreeCAD][FreeCADlink] files for the mechanical design
 	* `src`: Source files in .FCStd format.
 	* `Step`: Step files for component and auxiliar assembly import.
+* `Optical` : Lens adapters by phone.
 * `Fonts`: Fonts used in the design of the parts.
 * `doc`: useful files for documentation
 
-###Building the device
-
-The best way to understand how the device is made is to explore the Assembly file. Because this is still in very early development, BOM or instructions are not provided for now. But we can specify the components used in it's construction:
-
-####Main frame
-
-* The main frame is made from aluminium extrusion profiles, put together by 3D printed parts. These parts are bolted to the profiles with M4x6 bolts, screwed to hammerhead nuts inside the profiles. 
-* Linear guide systems are 8mm smooth rods with LM8UU bearings, and radial bearings are 623ZZ. 
-* Kevlar fishing wire is used as belt, although a T2 belt can fit inside the profiles.
-
-####Smartphone Holder
-
-* It is completely 3D printed, with smooth rods + LM8UU bearings for linear guide, and a M5 threaded rod used as leadscrew.
-* The threaded rod is fixed to the big gear with an M3 stud, screwed to an M3 nut.
-* The bracket that holds the phone is tightened with a M3x60 screw.
-
-####Optic system
-
-No definitive solution has been chosen for now, but consistent results have been obtained from using borosilicate spheres attached to the phone's camera.
-
 ###Contributing to this repository
-
 
 You can contribute to this repo by forking it, and making pull requests to the [Development branch][Develop]. If you find problems to make the contribution this way, [place an issue][issue] and we'll work it out.
 
