@@ -2,9 +2,10 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('FreeCAD Model'),'2;1');
 FILE_NAME(
-'/run/media/gvJaime/Datos/Design/microspot/Mechanical/Step/Printed/Smart
-phoneHolder/LidPhoneCarriage.step','2016-12-01T16:40:39',('Author'),('')
-  ,'Open CASCADE STEP processor 6.8','FreeCAD','Unknown');
+'/run/media/elgambitero/FILES/Documents/Desarrollos/Design/microspot/Mec
+hanical/Step/Printed/SmartphoneHolder/LidPhoneCarriage.step',
+  '2016-12-29T13:20:25',('Author'),(''),
+  'Open CASCADE STEP processor 6.8','FreeCAD','Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN_CC2 { 1 2 10303 214 -1 1 5 4 }'));
 ENDSEC;
 DATA;
@@ -15212,7 +15213,7 @@ REPRESENTATION_CONTEXT('Context #1',
 #12876 = PRODUCT_DEFINITION_SHAPE('','',#12877);
 #12877 = PRODUCT_DEFINITION('design','',#12878,#12881);
 #12878 = PRODUCT_DEFINITION_FORMATION('','',#12879);
-#12879 = PRODUCT('LidPhoneCarriage','LidPhoneCarriage','',(#12880));
+#12879 = PRODUCT('LowerPhoneCarriage','LowerPhoneCarriage','',(#12880));
 #12880 = MECHANICAL_CONTEXT('',#2,'mechanical');
 #12881 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
 #12882 = CONTEXT_DEPENDENT_SHAPE_REPRESENTATION(#12883,#12885);
@@ -15222,7 +15223,7 @@ SHAPE_REPRESENTATION_RELATIONSHIP() );
 #12884 = ITEM_DEFINED_TRANSFORMATION('','',#11,#15);
 #12885 = PRODUCT_DEFINITION_SHAPE('Placement','Placement of an item',
   #12886);
-#12886 = NEXT_ASSEMBLY_USAGE_OCCURRENCE('1','=>[0:1:1:2]','',#5,#12877,$
+#12886 = NEXT_ASSEMBLY_USAGE_OCCURRENCE('2','=>[0:1:1:2]','',#5,#12877,$
   );
 #12887 = PRODUCT_TYPE('part',$,(#12879));
 #12888 = MECHANICAL_DESIGN_GEOMETRIC_PRESENTATION_REPRESENTATION('',(
