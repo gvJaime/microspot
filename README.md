@@ -20,7 +20,7 @@ Now it's being developed within [MalariaSpot][MalariaLink], but you can also con
 
 ##Building the device
 
-To build this device, you need to 3D print the .stl files provided in the release section, and get all the items listed in the bill of materials.
+To build this device, you need to 3D print the objects indicated as "Printed" in the Assembly, and get all the items listed in the bill of materials.
 
 The best way to understand how the device is made is to explore the Assembly file. Although, bill of materials and assembly instructions are provided in the wiki.
 
@@ -34,17 +34,21 @@ This repository holds the mechanical information of the device, and wiki. Androi
 * `Fonts`: Fonts used in the design of the parts.
 * `doc`: useful files for documentation
 
-###Contributing to this repository
+###Contributing to this repository. Developer notes
 
 You can contribute to this repo by forking it, and making pull requests to the [Development branch][Develop]. If you find problems to make the contribution this way, [place an issue][issue] and we'll work it out.
 
 Due to FCStd files being unmergeable, Assembly.FCStd is modified only on the Development branch. It may not be included in pull requests.
 
+**This repo relies heavily on [@hamish_2014 's Assemblyv2 workbench][Assemblyv2Link].** The assembly file is composed almost entirely of Assemblyv2 objects, every file has reference items that are imported dynamically using this workbench. **These files may not be usable if your FreeCAD distribution doesn't have this workbench installed.**
+
+Also, there may be files that use [@DeepSOIC 's Lattice2 workbench][LatticeLink]'s Recompute locker. This may be used to avoid FreeCAD to recompute a whole file each time an operation is readjusted.
+
 ##History
 
 ###Microspot v0.1
 
-<img src="./doc/README/Microspot.png" width="300" align="center">
+<img src="./doc/README/Microspot1.png" width="300" align="center">
 
 ####Specs
 
@@ -55,6 +59,16 @@ Due to FCStd files being unmergeable, Assembly.FCStd is modified only on the Dev
 + Integrated LED illumination system, with regulable intensity by firmware.
 + Phone support with adaptable grip, to fit all phone sizes.
 
+### Microspot v0.2
+
+<img src="./doc/README/Microspot.png" width="300" align="center">
+
+####Specs
+
++ New compact phone crane that doesn't stick forward, reducing size to 256x200x75
++ Lower plate protecting mechanical system.
++ Lens system adaptable for every phone.
++ General usability upgrades.
 
 ##Credits
 
@@ -74,3 +88,5 @@ Licensed under Creative Commons 4.0 Attribution Share-Alike
 [issue]: https://github.com/malariaspot/microspot/issues/new
 [Develop]: https://github.com/malariaspot/microspot/tree/Development
 [microspot-fw]: https://github.com/malariaspot/microspot-fw
+[Assemblyv2Link]: https://github.com/hamish_2014/Assemblyv2
+[LatticeLink]: https://github.com/DeepSOIC/Lattice2
