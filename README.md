@@ -14,9 +14,7 @@ The device consists of a core-H mechanical stage, plus a vertical axis with a ph
 This project aims to bring medical diagnosis equipment to the open source community: Designs are made with 3D printing in mind, materials are inexpensive, and electronics accesible. The source is open from the very development stage, and the tools used to design it are open source.
 
 
-This project started as a collaboration between the Innovation and Robotics department of bq and [MalariaSpot][MalariaLink], an innitiative of the Technical University of Madrid.
-
-Now it's being developed within [MalariaSpot][MalariaLink], but you can also contribute to it's development!
+This repo started as a collaboration between the Innovation and Robotics department of bq and the Technical University of Madrid, but you can also contribute to it's development!
 
 ## Building the device
 
@@ -61,7 +59,7 @@ Also, there may be files that use [@DeepSOIC 's Lattice2 workbench][LatticeLink]
 
 ### Microspot v0.2
 
-<img src="./doc/README/Microspot.png" width="300" align="center">
+<img src="./doc/README/Microspot2.png" width="300" align="center">
 
 #### Specs
 
@@ -70,13 +68,28 @@ Also, there may be files that use [@DeepSOIC 's Lattice2 workbench][LatticeLink]
 + Lens system adaptable for every phone.
 + General usability upgrades.
 
+### MicroSpot v0.2.1
+
+<img src="./doc/README/Microspot.png" width="300" align="center">
+
+#### Specs
+
++ New carriage design that allows for detachable sample trays.
++ Sample trays for standard samples, Neubauer samples, and more.
++ Sample fixing system revisioned.
+
 ## Credits
 
-* [MalariaSpot][MalariaLink] (Main concept, inspiration, research teammates, current sponsor)
-* [@AngelLM](https://github.com/AngelLM) (Design and research collaborator back in Mundo Reader. Wonderful teammate)
+* Technical University of Madrid (Main concept & inspiration, current sponsor)
+	* [@gvJaime](https://github.com/gvJaime) (Lead mechanical designer and researcher)
 * Mundo Reader S.L (sponsor from October 2015 to April 2016)
+	* [@gvJaime](https://github.com/gvJaime) (Lead mechanical designer and researcher)
+	* [@AngelLM](https://github.com/AngelLM) (Mechanical designer. Wonderful teammate)
+
 
 ## License
+
+Copyright (c) Universidad Politecnica de Madrid 2015
 
 Licensed under Creative Commons 4.0 Attribution Share-Alike
 
