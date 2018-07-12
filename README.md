@@ -1,7 +1,7 @@
 # Microspot
 
 <img src="./doc/README/Microspot.png" width="458" align="center">
-<img src="./doc/README/MicrospotReal.JPG" width="458" align="center">
+<img src="./doc/README/MicrospotReal.jpeg" width="458" align="center">
 
 ## Abstract
 
@@ -9,12 +9,12 @@ The purpose of this work is the development of a 3D printable, low cost, phone c
 
 ## The project
 
-The device consists of a core-H mechanical stage, plus a vertical axis with a phone attached. The phone camera sees through an optical system that allows it to take pictures at microscopic scale.
+The device consists of a core-H mechanical stage, plus a vertical axis with a phone attached. The phone camera sees through an optical system that allows it to take pictures at a microscopic scale.
 
 This project aims to bring medical diagnosis equipment to the open source community: Designs are made with 3D printing in mind, materials are inexpensive, and electronics accesible. The source is open from the very development stage, and the tools used to design it are open source.
 
 
-This repo started as a collaboration between the Innovation and Robotics department of bq and the Technical University of Madrid, but you can also contribute to it's development!
+This repo started as a collaboration between the Innovation and Robotics department of bq and the Technical University of Madrid, and it is currently developed within SpotLab S.L., but you can also contribute to it's development!
 
 ## Building the device
 
@@ -57,26 +57,39 @@ Also, there may be files that use [@DeepSOIC 's Lattice2 workbench][LatticeLink]
 + Integrated LED illumination system, with regulable intensity by firmware.
 + Phone support with adaptable grip, to fit all phone sizes.
 
-### Microspot v0.2
 
-<img src="./doc/README/Microspot2.png" width="300" align="center">
+### MicroSpot v0.2.1
+
+<img src="./doc/README/Microspot21.png" width="300" align="center">
 
 #### Specs
 
 + New compact phone crane that doesn't stick forward, reducing size to 256x200x75
 + Lower plate protecting mechanical system.
 + Lens system adaptable for every phone.
++ New carriage design that allows for detachable sample trays.
++ Sample trays for standard samples, Neubauer samples, and more.
++ Sample fixing system revisioned.
 + General usability upgrades.
 
-### MicroSpot v0.2.1
+### MicroSpot v0.3
 
 <img src="./doc/README/Microspot.png" width="300" align="center">
 
 #### Specs
 
-+ New carriage design that allows for detachable sample trays.
-+ Sample trays for standard samples, Neubauer samples, and more.
++ New upper lid to protect the sample while scanning, featuring:
+	+ New fixing system for the optics.
+	+ New fixing system for the phone.
+	+ Openable by sliding forwards, allowing sample change without removing the phone.
+	+ Stays closed by magnets.
++ Vertical axis revisioned.
+	+ Printable linear guides, with BBs as bearings
+	+ Updated knob, designed to minimize vertical backlash and ensure smooth movement.
 + Sample fixing system revisioned.
++ General assembly revisions.
++ New electronics.
+
 
 ## Credits
 
