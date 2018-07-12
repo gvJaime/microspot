@@ -20,7 +20,11 @@ This repo started as a collaboration between the Innovation and Robotics departm
 
 To build this device, you need to 3D print the objects indicated as "Printed" in the Assembly, and get all the items listed in the bill of materials.
 
-The best way to understand how the device is made is to explore the Assembly file. Although, bill of materials and assembly instructions are provided in the wiki.
++ Those groups labeled as PrintedStructural must be printed in a material that is considered suitable for structural applications. The rule of thumb is "the tougher the better".
++ Those groups labeled as PrintedTribologic must be printed in a material that holds at least some tribologic properties. They must present low friction.
++ Those gropus labeled as PrintedFlexible must be printed in flexible material.
+
+The best way to understand how the device is made is to explore the Assembly file. Although, bill of materials and assembly instructions may be provided in the wiki.
 
 ## About this repository
 This repository holds the mechanical information of the device, and wiki. Android app information and firmware information are held in other repos.
