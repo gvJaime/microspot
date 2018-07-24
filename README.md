@@ -1,7 +1,7 @@
 # Microspot
 
 <img src="./doc/README/Microspot.png" width="458" align="center">
-<img src="./doc/README/MicrospotReal.jpeg" width="458" align="center">
+<img src="./doc/README/MicrospotReal.jpg" width="458" align="center">
 
 ## Abstract
 
@@ -84,7 +84,7 @@ Also, there may be files that use [@DeepSOIC 's Lattice2 workbench][LatticeLink]
 
 + New upper lid to protect the sample while scanning, featuring:
 	+ New fixing system for the optics.
-	+ New fixing system for the phone.
+	+ New gel pad based fixing system for the phone.
 	+ Openable by sliding forwards, allowing sample change without removing the phone.
 	+ Stays closed by magnets.
 + Vertical axis revisioned.
