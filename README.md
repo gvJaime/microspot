@@ -1,7 +1,7 @@
 # Microspot
 
 <img src="./doc/README/Microspot.png" width="458" align="center">
-<img src="./doc/README/MicrospotReal.jpg" width="458" align="center">
+<img src="./doc/README/MicrospotReal.png" width="458" align="center">
 
 ## Abstract
 
