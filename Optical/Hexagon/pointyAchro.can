@@ -1,0 +1,177 @@
+# OpticalRayTracer 9.6
+# http://arachnoid.com/OpticalRayTracer
+# 2018.10.24 20:17:17 CEST
+
+program {
+  antialias                 = true
+  askBeforeDeleting         = true
+  beamAngle                 = 0.000000e+00
+  beamCount                 = 3
+  beamWidth                 = 1
+  clipboardGraphicXSize     = 1280
+  colorArrow                = -2147483393
+  colorBaseline             = -16760832
+  colorBeam                 = -4194304
+  colorGrid                 = 1086374080
+  colorHighBackground       = -1
+  colorLensOutline          = 276865279
+  colorLensSelected         = 268484608
+  colorLightSource          = -16776961
+  colorLowBackground        = -16777216
+  colorTerminator           = -16777216
+  decimalPlaces             = 4
+  defaultWindowHeight       = 1053
+  defaultWindowWidth        = 1920
+  dispScale                 = 0.072228
+  dispersionBeams           = 3
+  divergingSource           = true
+  helpScrollPos             = 9360
+  interLensEpsilon          = 1.000000e-06
+  intersectionArrowSize     = 0.050000
+  inverse                   = false
+  maxIntersections          = 64
+  selectedComponent         = 5
+  selectedTab               = 1
+  showControls              = true
+  showGrid                  = true
+  snapValue                 = 0.010000
+  surfEpsilon               = 5.000000e-04
+  tableLineLimit            = 500
+  virtualSpaceSize          = 100.000000
+  windowX                   = 0
+  windowY                   = 27
+  xBeamRotationPlane        = 0.000000e+00
+  xBeamSourceRefPlane       = -1.000000
+  xOffset                   = 14.917724
+  yEndBeamPos               = 0.927600
+  yOffset                   = 0.324350
+  yStartBeamPos             = -0.927600
+}
+
+object {
+  active                    = true
+  angle                     = 180.000000
+  centerThickness           = 3.054029
+  dispersion                = 40.940000
+  function                  = 0
+  ior                       = 1.806100
+  leftCurvature             = 2
+  leftSphereRadius          = 4.000000
+  leftZValue                = 0.174000
+  lensRadius                = 3.165000
+  name                      = LAQ0305
+  rightCurvature            = 3
+  rightSphereRadius         = 3.500000
+  rightZValue               = 20.000000
+  symmetrical               = false
+  thickness                 = 1.500000
+  xPos                      = 3.030000
+  yPos                      = 0.000000e+00
+}
+
+object {
+  active                    = true
+  angle                     = 0.000000e+00
+  centerThickness           = 2.489190
+  dispersion                = 51.490000
+  function                  = 0
+  ior                       = 1.734000
+  leftCurvature             = 2
+  leftSphereRadius          = 5.850000
+  leftZValue                = 5.000000
+  lensRadius                = 3.255000
+  name                      = LAQ0805
+  rightCurvature            = 3
+  rightSphereRadius         = 3.500000
+  rightZValue               = 20.000000
+  symmetrical               = false
+  thickness                 = 1.500000
+  xPos                      = 4.610000
+  yPos                      = 0.000000e+00
+}
+
+object {
+  active                    = true
+  angle                     = 0.000000e+00
+  centerThickness           = 0.886961
+  dispersion                = 25.680000
+  function                  = 0
+  ior                       = 1.784700
+  leftCurvature             = 3
+  leftSphereRadius          = -7.847000
+  leftZValue                = 5.000000
+  lensRadius                = 3.000000
+  name                      = LNQ1006
+  rightCurvature            = 0
+  rightSphereRadius         = -7.647000
+  rightZValue               = 20.000000
+  symmetrical               = false
+  thickness                 = 1.500000
+  xPos                      = 22.910000
+  yPos                      = 0.000000e+00
+}
+
+object {
+  active                    = true
+  angle                     = 180.000000
+  centerThickness           = 3.054029
+  dispersion                = 40.940000
+  function                  = 0
+  ior                       = 1.806100
+  leftCurvature             = 2
+  leftSphereRadius          = 4.000000
+  leftZValue                = 0.174000
+  lensRadius                = 3.165000
+  name                      = LAQ0305
+  rightCurvature            = 3
+  rightSphereRadius         = 3.500000
+  rightZValue               = 20.000000
+  symmetrical               = false
+  thickness                 = 1.500000
+  xPos                      = 17.450000
+  yPos                      = 0.000000e+00
+}
+
+object {
+  active                    = false
+  angle                     = 0.000000e+00
+  centerThickness           = 0.100000
+  dispersion                = 59.000000
+  function                  = 2
+  ior                       = 1.520000
+  leftCurvature             = 3
+  leftSphereRadius          = 10.000000
+  leftZValue                = 20.000000
+  lensRadius                = 1.500000
+  name                      = Camera Aperture
+  rightCurvature            = 3
+  rightSphereRadius         = 10.000000
+  rightZValue               = 20.000000
+  symmetrical               = true
+  thickness                 = 0.100000
+  xPos                      = 28.800000
+  yPos                      = 0.000000e+00
+}
+
+object {
+  active                    = true
+  angle                     = 0.000000e+00
+  centerThickness           = 1.018538
+  dispersion                = 59.000000
+  function                  = 0
+  ior                       = 1.520000
+  leftCurvature             = 2
+  leftSphereRadius          = 2.400000
+  leftZValue                = 6.800000
+  lensRadius                = 1.490000
+  name                      = CameraLens
+  rightCurvature            = 3
+  rightSphereRadius         = 6.000000
+  rightZValue               = 20.000000
+  symmetrical               = false
+  thickness                 = 0.500000
+  xPos                      = 24.300000
+  yPos                      = 0.000000e+00
+}
+
+
