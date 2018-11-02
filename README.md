@@ -1,7 +1,7 @@
 # Microspot
 
 <img src="./doc/README/Microspot.png" width="458" align="center">
-<img src="./doc/README/MicrospotReal.JPG" width="458" align="center">
+<img src="./doc/README/MicrospotReal.jpg" width="458" align="center">
 
 ## Abstract
 
@@ -9,18 +9,22 @@ The purpose of this work is the development of a 3D printable, low cost, phone c
 
 ## The project
 
-The device consists of a core-H mechanical stage, plus a vertical axis with a phone attached. The phone camera sees through an optical system that allows it to take pictures at microscopic scale.
+The device consists of a core-H mechanical stage, plus a vertical axis with a phone attached. The phone camera sees through an optical system that allows it to take pictures at a microscopic scale.
 
 This project aims to bring medical diagnosis equipment to the open source community: Designs are made with 3D printing in mind, materials are inexpensive, and electronics accesible. The source is open from the very development stage, and the tools used to design it are open source.
 
 
-This repo started as a collaboration between the Innovation and Robotics department of bq and the Technical University of Madrid, but you can also contribute to it's development!
+This repo started as a collaboration between the Innovation and Robotics department of bq and the Technical University of Madrid, and it is currently developed within SpotLab S.L., but you can also contribute to it's development!
 
 ## Building the device
 
 To build this device, you need to 3D print the objects indicated as "Printed" in the Assembly, and get all the items listed in the bill of materials.
 
-The best way to understand how the device is made is to explore the Assembly file. Although, bill of materials and assembly instructions are provided in the wiki.
++ Those groups labeled as PrintedStructural must be printed in a material that is considered suitable for structural applications. The rule of thumb is "the tougher the better".
++ Those groups labeled as PrintedTribologic must be printed in a material that holds at least some tribologic properties. They must present low friction.
++ Those gropus labeled as PrintedFlexible must be printed in flexible material.
+
+The best way to understand how the device is made is to explore the Assembly file. Although, bill of materials and assembly instructions may be provided in the wiki.
 
 ## About this repository
 This repository holds the mechanical information of the device, and wiki. Android app information and firmware information are held in other repos.
@@ -57,30 +61,47 @@ Also, there may be files that use [@DeepSOIC 's Lattice2 workbench][LatticeLink]
 + Integrated LED illumination system, with regulable intensity by firmware.
 + Phone support with adaptable grip, to fit all phone sizes.
 
-### Microspot v0.2
 
-<img src="./doc/README/Microspot2.png" width="300" align="center">
+### MicroSpot v0.2.1
+
+<img src="./doc/README/Microspot21.png" width="300" align="center">
 
 #### Specs
 
 + New compact phone crane that doesn't stick forward, reducing size to 256x200x75
 + Lower plate protecting mechanical system.
 + Lens system adaptable for every phone.
++ New carriage design that allows for detachable sample trays.
++ Sample trays for standard samples, Neubauer samples, and more.
++ Sample fixing system revisioned.
 + General usability upgrades.
 
-### MicroSpot v0.2.1
+### MicroSpot v0.3
 
 <img src="./doc/README/Microspot.png" width="300" align="center">
 
 #### Specs
 
-+ New carriage design that allows for detachable sample trays.
-+ Sample trays for standard samples, Neubauer samples, and more.
++ New upper lid to protect the sample while scanning, featuring:
+	+ New fixing system for the optics.
+	+ New gel pad based fixing system for the phone.
+	+ Openable by sliding forwards, allowing sample change without removing the phone.
+	+ Stays closed by magnets.
++ Vertical axis revisioned.
+	+ Printable linear guides, with BBs as bearings
+	+ Updated knob, designed to minimize vertical backlash and ensure smooth movement.
 + Sample fixing system revisioned.
++ General assembly revisions.
++ New electronics.
+
 
 ## Credits
 
-* Technical University of Madrid (Main concept & inspiration, current sponsor)
+* SpotLab S.L. (Main Sponsor)
+	* [@gvJaime](https://github.com/gvJaime) (Lead mechanical designer and integrator)
+	* [@alexx666](https://github.com/alexx666) (Lead firmware programmer and connections coordinator.)
+	* [@Dani-x2](https://github.com/Dani-x2) (Main Software Developer)
+* Technical University of Madrid (Main concept & inspiration)
 	* [@gvJaime](https://github.com/gvJaime) (Lead mechanical designer and researcher)
 * Mundo Reader S.L (sponsor from October 2015 to April 2016)
 	* [@gvJaime](https://github.com/gvJaime) (Lead mechanical designer and researcher)
