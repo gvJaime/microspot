@@ -97,7 +97,11 @@ Also, there may be files that use [@DeepSOIC 's Lattice2 workbench][LatticeLink]
 
 ## Credits
 
-* Technical University of Madrid (Main concept & inspiration, current sponsor)
+* SpotLab S.L. (Main Sponsor)
+	* [@gvJaime](https://github.com/gvJaime) (Lead mechanical designer and integrator)
+	* [@alexx666](https://github.com/alexx666) (Lead firmware programmer and connections coordinator.)
+	* [@Dani-x2](https://github.com/Dani-x2) (Main Software Developer)
+* Technical University of Madrid (Main concept & inspiration)
 	* [@gvJaime](https://github.com/gvJaime) (Lead mechanical designer and researcher)
 * Mundo Reader S.L (sponsor from October 2015 to April 2016)
 	* [@gvJaime](https://github.com/gvJaime) (Lead mechanical designer and researcher)
