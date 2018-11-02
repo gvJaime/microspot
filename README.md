@@ -1,4 +1,4 @@
-# Microspot
+# Microspot Project
 
 <img src="./doc/README/Microspot.png" width="458" align="center">
 <img src="./doc/README/MicrospotReal.jpg" width="458" align="center">
@@ -14,7 +14,7 @@ The device consists of a core-H mechanical stage, plus a vertical axis with a ph
 This project aims to bring medical diagnosis equipment to the open source community: Designs are made with 3D printing in mind, materials are inexpensive, and electronics accesible. The source is open from the very development stage, and the tools used to design it are open source.
 
 
-This repo started as a collaboration between the Innovation and Robotics department of bq and the Technical University of Madrid, and it is currently developed within SpotLab S.L., but you can also contribute to it's development!
+This repo started as a collaboration between the Innovation and Robotics department of bq and the Technical University of Madrid, and it has been developed to a mature state within SpotLab S.L., but you can also contribute to it's development!
 
 ## Building the device
 
@@ -32,7 +32,8 @@ This repository holds the mechanical information of the device, and wiki. Androi
 * `Mechanical`: [FreeCAD][FreeCADlink] files for the mechanical design
 	* `src`: Source files in .FCStd format.
 	* `Step`: Step files for component and auxiliar assembly import.
-* `Optical` : Lens adapters by phone.
+* `Optical` : Lens adapters approved on field.
+* `Tools` : Tool parts that you may need for assembly or servicing.
 * `Fonts`: Fonts used in the design of the parts.
 * `doc`: useful files for documentation
 
@@ -50,9 +51,9 @@ Also, there may be files that use [@DeepSOIC 's Lattice2 workbench][LatticeLink]
 
 ### Microspot v0.1
 
-<img src="./doc/README/Microspot1.png" width="300" align="center">
+<img src="./doc/README/Microspot01.png" width="300" align="center">
 
-#### Specs
+#### Changelog
 
 + Compact design, (256x256x130mm) for easy transport.
 + Aluminum profile + 3D printed parts based frame.
@@ -64,9 +65,9 @@ Also, there may be files that use [@DeepSOIC 's Lattice2 workbench][LatticeLink]
 
 ### MicroSpot v0.2.1
 
-<img src="./doc/README/Microspot21.png" width="300" align="center">
+<img src="./doc/README/Microspot021.png" width="300" align="center">
 
-#### Specs
+#### Changelog
 
 + New compact phone crane that doesn't stick forward, reducing size to 256x200x75
 + Lower plate protecting mechanical system.
@@ -78,9 +79,9 @@ Also, there may be files that use [@DeepSOIC 's Lattice2 workbench][LatticeLink]
 
 ### MicroSpot v0.3
 
-<img src="./doc/README/Microspot.png" width="300" align="center">
+<img src="./doc/README/Microspot03.png" width="300" align="center">
 
-#### Specs
+#### Changelog
 
 + New upper lid to protect the sample while scanning, featuring:
 	+ New fixing system for the optics.
@@ -92,7 +93,20 @@ Also, there may be files that use [@DeepSOIC 's Lattice2 workbench][LatticeLink]
 	+ Updated knob, designed to minimize vertical backlash and ensure smooth movement.
 + Sample fixing system revisioned.
 + General assembly revisions.
+
+### MicroSpot v1.0
+
+<img src="./doc/README/Microspot.png" width="300" align="center">
+
+#### Specs
+
++ New Optics system
+	+ Capable of 10x.
+	+ Tested on field.
 + New electronics.
++ General usability updates.
+	+ New back lids that prevent mechanical damage to cables.
+	+ Added On/Off switch.
 
 
 ## Credits
